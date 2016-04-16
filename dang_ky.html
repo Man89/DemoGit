@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <style>
+        .form-group{
+            margin: 50px auto;
+			width:400px;
+            height: auto;
+            background-color: transparent;
+        }
+        .khung
+		{
+            padding-bottom: 10px;
+			width:300px;
+        }
+        input
+        {
+            padding: 10px 0;
+			width:300px;
+        }
+		#khung input{
+		width:30px;
+		}
+		
+       
+
+    </style>
+
+    
+
+</head>
+<body>
+
+    <form action="" method="post" >
+        <div class="form-group" >
+            <fiedset>
+                <legend>
+                    <h2> Đăng ký thông tin cá nhân </h2>
+                </legend>
+                <div class="khung">
+                    <input type="text" placeholder="Tên đăng nhập *" required autofocus>
+                </div>
+                <div>Tối thiểu 6 ký tự, tối đa 15 ký tự</div>
+                <div class="khung">
+                    <input type="text" placeholder="Họ và tên *" required >
+                </div>
+                <div class="khung">
+                    <input type="text" placeholder="Ngày sinh *" required>
+                </div>
+                <div id="khung">
+                    Giới tính:<br/>
+                    <input type="radio" name="gioi_tinh" value="Nam" cheked > Nam
+                    <input type="radio" name="gioi_tinh" value="Nu"> Nữ
+                </div>
+                <div class="khung">
+                    <input type="text" placeholder="Email *" required >
+                </div>
+                <div class="khung">
+                    <input type="text" placeholder="Địa chỉ ">
+                </div>
+                <div>(Các trường có dấu * là bắt buộc)</div>
+                <div class="khung">
+                    <div><input type="submit" value="Đăng ký"></div>
+                </div>
+
+
+
+
+
+            </fiedset>
+
+        </div>
+
+    </form>
+
+</body>
+</html>
