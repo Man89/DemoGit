@@ -1,0 +1,28 @@
+{% include 'header.html' %}
+
+{% include 'nav.html' %}
+
+
+{% block container %}
+{% endblock %}
+
+
+{% include 'footer.html' %}
+
+<!-- jQuery -->
+<script src="/assets/js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/assets/js/bootstrap.min.js"></script>
+{% block jsEx %}
+{% endblock %}
+<!-- Script to Activate the Carousel -->
+<script>
+  $('.carousel').carousel({
+    interval: 5000 //changes the speed
+  })
+</script>
+
+</body>
+
+</html>
